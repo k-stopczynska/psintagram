@@ -1,0 +1,53 @@
+form {
+ display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+border: 1px solid lightgray;
+border-radius: 13px;
+box-shadow: 1px 10px 10px white;
+height: 90%;
+width: 100%;
+gap: 2em;
+font-family: 'Fasthand', cursive;
+background: transparent
+}
+
+@media (max-width: 1000px) {
+    form {
+        flex-direction: column;
+    }
+}
+
+option:hover {
+cursor: pointer;
+scale: 1.2;
+}
+
+img {
+    height: 25rem;
+    width: 25rem;
+    aspect-ratio: 1/1;
+    border: 1px solid lightgray;
+    border-radius: 13px;
+    box-shadow: 1px 5px 5px white;
+
+}
+
+a {
+    cursor: pointer;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-items: center;
+    padding: 1em;
+    width: 50%;
+}
+
+.image {
+    padding: 1em;
+    width: 50%;
+}

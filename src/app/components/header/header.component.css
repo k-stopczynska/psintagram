@@ -1,0 +1,10 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15vh;
+  text-transform: uppercase;
+  font-family: 'Fasthand', cursive;
+  letter-spacing: 1em;
+  font-size: 2rem;
+}

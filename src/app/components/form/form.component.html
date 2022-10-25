@@ -1,0 +1,17 @@
+<form action="">
+<div class="wrapper">
+    <option
+      *ngFor="let breed of breeds | keyvalue"
+      [breed]="breed.key"
+      [value]="breed.key"
+      (click)="getPhoto($event)"
+      (click)="getWiki($event)"
+    >
+      {{ breed.key }}
+    </option>
+</div>
+
+  <div class="image">
+    <img src="{{photos}}">
+<p>Poczytaj więcej o tej rasie na wikipedii: <a href="https://en.wikipedia.org/wiki/{{selectedBreed}}">klik</a></p></div>
+</form>
