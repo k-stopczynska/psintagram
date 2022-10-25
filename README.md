@@ -8,14 +8,15 @@ The challenge was to build an Angular App utilizing third party API https://dog.
 - get this breed's random photo
 - get a dynamic link to breed's wikipedia entry
 
-#Process
+# Process
 First app using Angular, so the layout and responsiveness wasn't the key.
 App had to be build within 4 days.
 
-#What I learned
+# What I learned
 -generating components and services
 -sending get requests with HttpClient
 -event handling
+
 
 
 
